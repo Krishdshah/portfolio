@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(background.jpeg);
+  background-image: linear-gradient(blue,rgb(111, 111, 185),rgb(189, 189, 224));
   background-attachment:scroll;
   background-position: center;
   background-repeat: no-repeat;
