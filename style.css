@@ -1,4 +1,4 @@
-/* ===== Base Styles ===== */
+
 body {
     background-color: #1F2937;
     color: #F3F4F6;
@@ -6,7 +6,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ===== Header Navigation ===== */
 .header {
     width: 100%;
     padding: 1rem 2rem;
@@ -36,7 +35,6 @@ body {
     color: #60a5fa;
 }
 
-/* ===== Links ===== */
 a {
     text-decoration: none;
 }
@@ -54,7 +52,6 @@ a:visited {
     color: inherit;
 }
 
-/* ===== Headings and Intro ===== */
 .top {
     font-size: 2.8rem;
     font-weight: bold;
@@ -67,7 +64,6 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* ===== Typing Animation ===== */
 .Details {
     width: fit-content;
     text-align: center;
@@ -90,7 +86,6 @@ h1 {
     50% { border-color: #F3F4F6; }
 }
 
-/* ===== Profile Picture ===== */
 .profile {
     display: flex;
     justify-content: center;
@@ -105,7 +100,6 @@ h1 {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* ===== Paragraph ===== */
 p {
     max-width: 900px;
     margin: 1rem auto;
@@ -116,7 +110,6 @@ p {
     color: #e5e7eb;
 }
 
-/* ===== Button (Optional) ===== */
 .btn {
     display: inline-block;
     background-color: #3b82f6;
@@ -151,7 +144,6 @@ p {
     background-color: #893bf684;
 }
 
-/* ===== Education Timeline with Icons & Animation ===== */
 .education {
     padding: 2rem 1.5rem;
     background-color: #111827;
@@ -324,6 +316,18 @@ h1 {
 .project-card a:hover {
     color: #D1D5DB;
 }
+
+.hidden-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.hidden-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /*responsive part*/
 @media (max-width: 1024px) {
     .top {
